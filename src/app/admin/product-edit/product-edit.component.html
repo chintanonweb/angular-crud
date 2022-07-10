@@ -1,0 +1,22 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <form class="mt-3" [formGroup]="form" (submit)="submit()">
+                <h3>Add Product</h3>
+                <div class="mb-3">
+                  <label for="title" class="form-label">Title</label>
+                  <input type="text" class="form-control" id="title"  name="title" formControlName="title">
+                </div>
+                <div class="mb-3">
+                  <label for="img" class="form-label">Image</label>
+                  <input type="text" class="form-control" id="img" name="img" name="image" formControlName="title">
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Add Product</button>
+              </form>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    </div>
+    
